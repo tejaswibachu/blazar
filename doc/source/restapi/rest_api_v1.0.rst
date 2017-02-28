@@ -87,11 +87,15 @@ are mentioned.
                         {
                             "status": "pending",
                             "lease_id": "6ee55c78-ac52-41a6-99af-2d2d73bcc466",
-                            "resource_id": "1234-1234-1234",
+                            "min": 1,
+                            "max": 1,
+                            "resource_id": "5",
                             "created_at": "2017-02-21 14:50:38",
                             "updated_at": null,
+                            "hypervisor_properties": "[\"==\", \"$hypervisor_hostname\", \"compute\"]",
+                            "resource_properties": "",
                             "id": "087bc740-6d2d-410b-9d47-c7b2b55a9d36",
-                            "resource_type": "virtual:instance"
+                            "resource_type": "physical:host"
                         }
                     ],
                     "created_at": "2017-02-21 14:50:38",
@@ -159,8 +163,11 @@ are mentioned.
             "end_date": "2017-2-24 20:00",
             "reservations": [
                 {
-                    "resource_id": "1234-1234-1234",
-                    "resource_type": "virtual:instance"
+                    "hypervisor_properties": "[\"==\", \"$hypervisor_hostname\", \"compute\"]",
+                    "max": 1,
+                    "min": 1,
+                    "resource_type": "physical:host",
+                    "resource_properties": ""
                 }
             ],
             "events": []
@@ -186,11 +193,15 @@ are mentioned.
                     {
                         "status": "pending",
                         "lease_id": "6ee55c78-ac52-41a6-99af-2d2d73bcc466",
-                        "resource_id": "1234-1234-1234",
+                        "min": 1,
+                        "max": 1,
+                        "hypervisor_properties": "[\"==\", \"$hypervisor_hostname\", \"compute\"]",
+                        "resource_id": "5",
+                        "resource_properties": "",
                         "created_at": "2017-02-21 14:50:38",
                         "updated_at": null,
                         "id": "087bc740-6d2d-410b-9d47-c7b2b55a9d36",
-                        "resource_type": "virtual:instance"
+                        "resource_type": "physical:host"
                     }
                 ],
                 "created_at": "2017-02-21 14:50:38",
@@ -270,11 +281,15 @@ are mentioned.
                     {
                         "status": "pending",
                         "lease_id": "6ee55c78-ac52-41a6-99af-2d2d73bcc466",
-                        "resource_id": "1234-1234-1234",
+                        "min": 1,
+                        "max": 1,
+                        "resource_id": "5",
                         "created_at": "2017-02-21 14:50:38",
                         "updated_at": null,
+                        "hypervisor_properties": "[\"==\", \"$hypervisor_hostname\", \"compute\"]",
+                        "resource_properties": "",
                         "id": "087bc740-6d2d-410b-9d47-c7b2b55a9d36",
-                        "resource_type": "virtual:instance"
+                        "resource_type": "physical:host"
                     }
                 ],
                 "created_at": "2017-02-21 14:50:38",
@@ -360,11 +375,15 @@ are mentioned.
                     {
                         "status": "pending",
                         "lease_id": "6ee55c78-ac52-41a6-99af-2d2d73bcc466",
-                        "resource_id": "1234-1234-1234",
+                        "min": 1,
+                        "max": 1,
+                        "resource_id": "5",
                         "created_at": "2017-02-21 14:50:38",
                         "updated_at": null,
+                        "hypervisor_properties": "[\"==\", \"$hypervisor_hostname\", \"compute\"]",
+                        "resource_properties": "",
                         "id": "087bc740-6d2d-410b-9d47-c7b2b55a9d36",
-                        "resource_type": "virtual:instance"
+                        "resource_type": "physical:host"
                     }
                 ],
                 "created_at": "2017-02-21 14:50:38",
